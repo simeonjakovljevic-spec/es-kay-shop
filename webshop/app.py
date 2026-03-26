@@ -117,7 +117,7 @@ PRODUCTS = [
         'delivery': '2-4 days',
         'type': 'Muške',
         'season': 'Leto/Proleće',
-        'description': 'Neona žuta za letnje dane. Lagana React potplata. Idealno za fitness ili šetnje u toplije vreme.',
+        'description': 'Neona crna za letnje dane. Lagana React potplata. Idealno za fitness ili šetnje u toplije vreme.',
     },
     {
         'id': 19,
