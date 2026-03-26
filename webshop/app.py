@@ -101,7 +101,7 @@ PRODUCTS = [
         'price': 150,
         'category': 'Patike',
         'subcategory': 'Adidas',
-        'image': 'https://picsum.photos/400/400?random=8',
+        'image': 'https://brand.assets.adidas.com/capi/enUS/Images/seo-what-is-boost-body-image-2_221-620467.jpg',
         'delivery': '2-4 days',
         'type': 'Uniseks',
         'season': 'Sve godine',
