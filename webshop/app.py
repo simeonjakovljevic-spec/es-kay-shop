@@ -183,11 +183,11 @@ PRODUCTS = [
     },
     {
         'id': 8,
-        'name': 'B78 Burberry Full Blue War Horse Print Short Sleeves (bela&plava)',
+        'name': 'Gucci Short Sleeve (gold&logo)',
         'price': 17,
         'category': 'Odeća',
         'subcategory': 'Majice',
-        'image': 'https://photo.yupoo.com/liulang666/978f2903/589bf874.jpg',
+        'image': 'https://photo.yupoo.com/new666/32c9c919/e8499557.jpeg',
         'delivery': '1-3 days',
         'type': 'Uniseks',
         'season': 'Sve godine',
@@ -313,20 +313,6 @@ def index():
         selected_category=category,
         selected_subcategory=subcat,
     )
-    
-    
-#NOVO DODATO\/
-@app.route('/product/<int:product_id>')
-def product_detail(product_id):
-    product = next((p for p in PRODUCTS if p['id'] == product_id), None)
-    if not product:
-        flash('Product not found')
-        return redirect(url_for('index'))
-
-    return render_template('product.html', product=product)
-#NOVO DODATO/\
-    
-    
     
 @app.route('/order/<int:product_id>', methods=['GET', 'POST'])
 def order(product_id):
