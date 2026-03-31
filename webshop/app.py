@@ -187,7 +187,7 @@ PRODUCTS = [
         'price': 17,
         'category': 'Odeća',
         'subcategory': 'Majice',
-        'image': 'https://photo.yupoo.com/new666/32c9c919/e8499557.jpeg',
+        'image': 'Screenshot_31-3-2026_143423_new666.x.yupoo.com.jpg',
         'delivery': '1-3 days',
         'type': 'Uniseks',
         'season': 'Sve godine',
@@ -229,7 +229,7 @@ PRODUCTS = [
         'delivery': '1-3 days',
         'type': 'Uniseks',
         'season': 'Sve godine',
-        'description': 'Moderne plave pantalone sa fleksibilnim pamуkom. Udobne za ceo dan. Moderne boje.',
+        'description': 'Moderne plave pantalone sa fleksibilnim pamukom. Udobne za ceo dan. Moderne boje.',
     },
     {
         'id': 14,
